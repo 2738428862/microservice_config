@@ -14,7 +14,7 @@ spring:
 eureka:
  client:
   service-url:
-    defaultZone: http://admin:a@localhost:7001/eureka
+    defaultZone: http://admin:a@localhost:7301/eureka    #将7001改成了7301
 ---
 server:
   port: 8102
