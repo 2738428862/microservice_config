@@ -23,7 +23,7 @@ spring:
 
 logging:
   level:
-    com.yc.springcloud2.microserviceprovider: debug
+    com.yc.springcloud812: debug
 
 eureka:
   client: # 客户端进行Eureka注册的配置
@@ -74,7 +74,7 @@ logging:
 eureka:
   client: # 客户端进行Eureka注册的配置
     service-url:
-      defaultZone: http://admin:a@localhost:7002/eureka
+      defaultZone: http://admin:a@localhost:7002/eureka      #进行Eureka注册的配置
   instance:
     instance-id: microservice-config-product-client
     prefer-ip-address: true
