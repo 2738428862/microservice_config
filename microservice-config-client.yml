@@ -10,6 +10,11 @@ spring:
   profiles: dev
   application:
       name: microconfig-test-client
+  cloud:
+    stream:
+      kafka:
+        binder:
+          brokers: 47.93.184.137
 
 eureka:
  client:
